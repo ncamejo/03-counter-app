@@ -3,10 +3,15 @@ const newMessage = {
   title: "Néstor",
 };
 
+const saludo = (nombre)=>{
+  return `Hola mi nombre es: ${nombre}`
+}
+
 export const FirstApp = () => {
+  let nombre = 'Goku!!!'
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <h1>{saludo(nombre)}</h1>
       <h2>Néstor Camejo</h2>
     </>
   );
