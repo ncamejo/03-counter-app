@@ -1,3 +1,8 @@
+const newMessage = {
+  message: "Hola mundo",
+  title: "Néstor",
+};
+
 export const FirstApp = () => {
   return (
     <>
