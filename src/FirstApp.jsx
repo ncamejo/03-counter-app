@@ -1,15 +1,16 @@
-/* eslint-disable react/prop-types */
-// const saludo = (nombre)=>{
-//   return `Hola mi nombre es: ${nombre}`
-// }
+import PropTypes from 'prop-types'
 
+export const FirstApp = ({title, subTitle}) => {
 
-
-export const FirstApp = ({title}) => {
   return (
     <>
     <h1>{title}</h1>
-      <h2>Néstor Camejo</h2>
+      <p>{subTitle}</p>
     </>
   );
 };
+
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.number.isRequired
+}
