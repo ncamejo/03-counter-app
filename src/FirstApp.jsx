@@ -13,7 +13,7 @@ export const FirstApp = ({title, subTitle="La tierra explota", name}) => {
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
-  subTitle: PropTypes.number
+  subTitle: PropTypes.string
 }
 
 FirstApp.defaultProps = {
